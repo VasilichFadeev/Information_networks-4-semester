@@ -1,0 +1,6 @@
+# The loopback network inteface
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet_dhcp
